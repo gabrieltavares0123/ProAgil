@@ -12,7 +12,7 @@ using ProAgil.WebAPI.Model;
 namespace ProAgil.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class EventosController : ControllerBase
     {
         private readonly ILogger<EventosController> _logger;
